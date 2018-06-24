@@ -1,0 +1,6 @@
+<div class="panel-body">
+  <div class="form-group">
+    <%= label_tag Spree.t(:completed_orders) %>
+    <%= text_field_tag "#{param_prefix}[preferred_completed_orders]", promotion_rule.preferred_completed_orders, class: 'form-control' %>
+  </div>
+</div>

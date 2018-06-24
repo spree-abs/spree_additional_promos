@@ -1,0 +1,14 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    completed_orders: Completed orders
+    eligibility_errors:
+      messages:
+        no_applicable_completed_orders: You need atleast %{number} completed orders before applying this coupon code.
+    promotion_rule_types:
+      completed_orders:
+        description: User have N completed orders
+        name: Completed Orders
+
