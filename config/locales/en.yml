@@ -11,4 +11,11 @@ en:
       completed_orders:
         description: User have N completed orders
         name: Completed Orders
-
+      user_role:
+        description: User have one or all roles
+        name: User roles
+    user_role_rule:
+      choose_roles: Choose Roles
+      label: User must contain %{select} of these roles
+      match_all: all
+      match_any: at least one

@@ -17,6 +17,7 @@ module SpreeAdditionalPromos
 
     initializer "spree.register.promotions" do |app|
       app.config.spree.promotions.rules << Spree::Promotion::Rules::CompletedOrders
+      app.config.spree.promotions.rules << Spree::Promotion::Rules::UserRole
     end
 
     config.to_prepare &method(:activate).to_proc
