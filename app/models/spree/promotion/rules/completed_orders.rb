@@ -19,8 +19,9 @@ module Spree
             return false
           end
 
-          return true       
+          return true
         end
+
       end
     end
   end
